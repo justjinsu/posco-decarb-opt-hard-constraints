@@ -1,0 +1,7 @@
+{
+  "scenario": "NGFS_NetZero2050",
+  "discount_rate": 0.05,
+  "objective_USD": 283122844342.42126,
+  "cumulative_scope1_MtCO2": 415.4596,
+  "total_production_Mt": 927.732
+}

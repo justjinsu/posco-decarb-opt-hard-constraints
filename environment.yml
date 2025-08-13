@@ -1,0 +1,14 @@
+
+name: posco-steel-opt
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - ipykernel
+  - pandas
+  - numpy
+  - openpyxl
+  - pyomo
+  - pip
+  - pip:
+      - xlsxwriter

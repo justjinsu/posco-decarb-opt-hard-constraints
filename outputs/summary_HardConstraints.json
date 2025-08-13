@@ -1,0 +1,69 @@
+{
+  "scenario": "HardConstraints",
+  "model_info": {
+    "years": [
+      2025,
+      2026,
+      2027,
+      2028,
+      2029,
+      2030,
+      2031,
+      2032,
+      2033,
+      2034,
+      2035,
+      2036,
+      2037,
+      2038,
+      2039,
+      2040,
+      2041,
+      2042,
+      2043,
+      2044,
+      2045,
+      2046,
+      2047,
+      2048,
+      2049,
+      2050
+    ],
+    "routes": [
+      "BF-BOF",
+      "Scrap EAF",
+      "NG-DRI-EAF",
+      "H2-DRI/HyREX"
+    ],
+    "plants": [
+      "POSCO_Simple"
+    ],
+    "product_classes": [
+      "flat_auto_exposed",
+      "flat_other",
+      "long"
+    ]
+  },
+  "solve_info": {
+    "solver_status": "ok",
+    "termination_condition": "optimal",
+    "solve_time": 0.005924701690673828,
+    "objective_value": 230010.32227790254,
+    "optimality_gap": null,
+    "error": "'ConcreteModel' object has no attribute 'P'"
+  },
+  "objective_value": 230010.32227790254,
+  "total_steel_demand_Mt": 35.682,
+  "results": {
+    "cumulative_scope1_emissions_MtCO2": 46.3866,
+    "cumulative_scope2_emissions_MtCO2": 0.0,
+    "total_emissions_MtCO2": 46.3866
+  },
+  "cost_breakdown_undiscounted": {
+    "total_capex_USD": 0.0,
+    "total_opex_process_USD": 371092.8,
+    "total_opex_electricity_USD": 0.0,
+    "total_opex_hydrogen_USD": 0.0,
+    "total_carbon_cost_USD": 31310.954999999998
+  }
+}
