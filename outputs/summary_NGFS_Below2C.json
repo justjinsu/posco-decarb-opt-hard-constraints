@@ -1,0 +1,7 @@
+{
+  "scenario": "NGFS_Below2C",
+  "discount_rate": 0.05,
+  "objective_USD": 282521051138.2035,
+  "cumulative_scope1_MtCO2": 485.23259938,
+  "total_production_Mt": 927.7319986900001
+}
